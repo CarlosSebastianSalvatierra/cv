@@ -1,0 +1,180 @@
+body{
+background-color: #CCF5DC;
+margin: 0;
+padding: 0;
+}
+
+nav{
+    background-color: #94E8B4;
+}
+
+
+
+
+.tec-exp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 1rem;
+    margin-left: 5rem;
+    margin right: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+
+}
+
+.vl{
+    border-left: 6px solid #5E8C61;
+  height: 50rem;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.container-ref{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    gap: 10rem;
+}
+
+
+.container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Ajusta el valor según tu preferencia */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.card-link {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+}
+
+
+
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+.about-me img{
+    border-radius: 50%;
+
+}
+.about-me p{
+    font-size: larger; 
+
+
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.social-icons a{
+    text-decoration: none;
+    
+}
+.social-icons svg{
+    width: 5rem;
+    margin: 1rem;
+}
+.social-icons svg:hover{
+    transform: scale(1.05); /* Ajusta el valor según tu preferencia */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.form-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.form-input-box{
+    width: 100%;
+    background-color: #8FA391;
+    padding: 10rem;
+    border-radius: 10%;
+    margin: 3rem 10rem 5rem 0rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.form-input-box .details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: larger;
+    text-align: start;
+    width: 100%;
+    margin: 0.5rem;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.form-input-box .input-box input{
+    height: 3.5rem;
+    width: 100%;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #ccc;
+    padding-left: 3rem;
+    font-size: 16px;
+    resize: vertical;
+}
+.form-input-box .input-box textarea{
+    height: 12rem;
+    resize: vertical;
+    width: 100%;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #ccc;
+    font-size: 16px;
+    text-align: start;
+    resize: vertical;
+}
+
+footer{
+    background-color: #000000;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
